@@ -1,0 +1,13 @@
+body { 
+	color:white;
+	background-color: #272b30;
+}
+
+.box {
+  background-color: #2e3338;
+  width: 300px;
+  border: 15px black;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}

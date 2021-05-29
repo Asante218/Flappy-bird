@@ -1,0 +1,31 @@
+body { 
+	background-color: pink;
+}
+
+.good {
+
+	color: green;
+}
+.book{
+	color: black
+}
+
+.happy{
+    font-family:tahoma;
+}
+
+.bill{
+	font-family:tahoma;
+}
+
+.tim{
+	font-family:verdana;
+}
+
+.tom{
+	font-family:helvetica;
+}
+
+.bob{
+	font-family:times new roman; 
+}
