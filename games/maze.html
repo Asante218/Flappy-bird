@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+
+<script src="maze.js"></script>
+
+</head>
+<body onload="startGame()">
+<!-- -->
+
+<br>
+
+
+<!-- easy mode -->
+<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">EASY</button>
+<!-- normal mode -->
+<button onmousedown="accelerate(-0.6)" onmouseup="accelerate(0.1)">NORMAL</button>
+<!-- hard mode -->
+<button onmousedown="accelerate(-1)" onmouseup="accelerate(0.5)">HARD</button>
+
+<p>Use the ACCELERATE button to stay in the air</p>
+<p>How long can you stay alive?</p>
+</body>
+</html>
+accelerate(-0.2)

@@ -11,3 +11,9 @@ body {
   margin: 20px;
   text-align: center;
 }
+ .centering-canvas {
+    text-align: center;
+ }
+ .flappy-canvas-text{
+  padding-left: 1,000,0px;
+ }

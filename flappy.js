@@ -16,10 +16,10 @@ pipeSouth.src = "images/pipeSouth.png";
 var gap = 85;  
 var constant;  
   
-var bX = 10;  
-var bY = 150;  
+var bX = 50;  
+var bY = 200;  
   
-var gravity = 1.5;  
+var gravity = 3;  
   
 var score = 0;  
   
@@ -32,7 +32,7 @@ scor.src = "sounds/score.mp3";
 document.addEventListener("keydown",moveUp);  
   
 function moveUp(){  
-    bY -= 25;  
+    bY -= 30;  
     fly.play();  
 }  
   
